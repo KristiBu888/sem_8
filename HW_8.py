@@ -1,12 +1,6 @@
 # Дополнить справочник возможностью копирования данных из одного файла в другой.
 # Пользователь вводит номер строки, которую необходимо перенести из одного файла в другой.
 
-def add_contact():
-    file_name = 'phonebook1.txt'
-    data = file_name.readlines()
-    with open(file_name, 'w', encoding='utf-8') as fd:
-        fd.write(data)
-
 
 def read_file():
     file_name = 'phonebook1.txt'
